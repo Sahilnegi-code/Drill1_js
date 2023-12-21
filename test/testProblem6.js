@@ -48,6 +48,7 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":48,"car_make":"Dodge","car_model":"Magnum","car_year":2008},
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
-const problem2 = require('./problem2');
-const result2 = problem2(inventory);
-console.log(result2);
+const problem6 = require('./problem6');
+const result6 = problem6(inventory);
+console.log( JSON.stringify( result6) );
+

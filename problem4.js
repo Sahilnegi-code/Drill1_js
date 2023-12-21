@@ -1,3 +1,4 @@
+
 const sol4 = (inventory)=>{
     // inventory.sort((a ,b) =>  parseInt(a.car_model) - parseInt( b.car_model) );
     let arr = [];
