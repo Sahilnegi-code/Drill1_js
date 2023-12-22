@@ -1,6 +1,9 @@
 
 const sol6 = (inventory)=>{
- 
+    if(!Array.isArray( inventory)  ) {
+        console.log('Not an Array .');
+        return ;
+    }
     
 let res = [];
     for( let i = 0; i < inventory.length ; i+=1){

@@ -1,6 +1,10 @@
-
+let arr = require('./problem4'); 
 const sol5 = (inventory)=>{
-    let arr = require('./problem4'); 
+    if(!Array.isArray( inventory)  ) {
+        console.log('Not an Array .');
+        return ;
+    }
+
     arr = arr(inventory);
 
     let res = [];
